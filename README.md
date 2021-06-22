@@ -27,11 +27,14 @@
 
 `git remote add origin git@github.com:your_username/repository_name.git`
 
-### Pushing Data
+### Pushing Data in a New Repository
 these commands will work either in the console or in Pycharm
 - `git init` initialises the repository in the command line
+- `git add` adds files to list to be uploaded - either all files `git add .` or specifics `git add file_name` 
 - `git commit -m "descriptive message` commits all files in the directory
 - `git branch -M main` ensures you are working on the main branch 
 - this is when you run the above `git remote` command
 - `git push -u origin main` pushes all selected files into the Github repository
 - to check which files are yet to be pushed or slected use `git status`
+
+when adding files to a repostiory that has been previosuly used, only the `git add`, `git commit` and `git push` commands are necessary
