@@ -3,6 +3,9 @@
 - to download Git, click the following link and follow the necessary steps [gitdownload](https://git-scm.com/downloads)
 - make sure you have an account on [Github](https://github.com)
 - before starting any work/documentation SSH key pairs must be created in order for you local host (laptop/pc) to communicate with Github
+- the image below shows how a local host communicates with Github:
+
+![img_1.png](img_1.png)
 
 ### SSH keys
 
