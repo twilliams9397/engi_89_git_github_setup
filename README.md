@@ -9,7 +9,8 @@
 
 ### SSH keys
 
-- open terminal (Mac) or Gitbash (windows) and paste the below line of code, using the email address associated with you Github account:
+- open terminal (Mac) or Gitbash (windows) and create a new directory `mkdir .ssh`
+- paste the below line of code when in this directory, using the email address associated with you Github account:
 
 `ssh-keygen -t ed25519 -C "your_email@example.com"`
 
